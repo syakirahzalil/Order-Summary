@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+body {
+    font-family: 'Red Hat Display', sans-serif !important;
+    background-image: url('../images/pattern-background-desktop.svg');
+}
+
+.main-container {
+    min-height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.main-content {
+    height: auto;
+	justify-content: center;
+	align-items: center;
+}
+
+.main-content > div {
+    background-color: white;
+    margin: 0 auto;
+    width: 450px;
+}
+
+.bg-section, .bg-section > img {
+    border-radius: 15px 15px 0 0;
+}
+
+.bg-section > img {
+    display: block;
+    margin: auto;
+}
+
+.first-section > h1 {
+    font-weight: bold;
+    display: block;
+    text-align: center;
+    padding: 10% 5% 5%;
+    margin: 0 auto;
+}
+
+.second-section > p {
+    text-align: center;
+    justify-content: center;
+    padding: 5% 10% 10%;
+    margin: 0;
+    font-size: 18px;
+}
+
+.third-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+
+    padding: 15px 40px;
+    border: 0 0 15px 15px;
+}
+
+.sub-third-section {
+    display: flex;
+    flex-direction: column;
+}
+
+.sub-third-section > div > h5 {
+    font-weight: bold;
+}
+
+.fourth-section {
+    text-align: center;
+    justify-content: center;
+    padding: 5%;
+    margin: 0;
+    font-size: 18px;
+}
+
+.btn-proceed {
+    background-color: #3829E0 !important;
+    color: white !important;
+    width: 80%;
+    font-weight: bold !important;
+    border-radius: 10px !important;
+}
